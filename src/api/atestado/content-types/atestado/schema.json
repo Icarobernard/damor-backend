@@ -1,0 +1,82 @@
+{
+  "kind": "collectionType",
+  "collectionName": "atestados",
+  "info": {
+    "singularName": "atestado",
+    "pluralName": "atestados",
+    "displayName": "Atestado",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nome": {
+      "type": "string"
+    },
+    "endereco": {
+      "type": "string"
+    },
+    "bairro": {
+      "type": "string"
+    },
+    "cargo": {
+      "type": "string"
+    },
+    "telefone": {
+      "type": "string"
+    },
+    "secretaria": {
+      "type": "string"
+    },
+    "matricula": {
+      "type": "string"
+    },
+    "prontuario": {
+      "type": "string"
+    },
+    "efetivo": {
+      "type": "boolean"
+    },
+    "regime_juridico": {
+      "type": "string"
+    },
+    "descricao": {
+      "type": "string"
+    },
+    "inicio_tratamento": {
+      "type": "datetime"
+    },
+    "fim_tratamento": {
+      "type": "datetime"
+    },
+    "acidente_trabalho": {
+      "type": "boolean"
+    },
+    "artigo_115": {
+      "type": "boolean"
+    },
+    "pos_afastamento": {
+      "type": "string"
+    },
+    "efetividade": {
+      "type": "integer"
+    },
+    "motivo": {
+      "type": "string"
+    },
+    "contratos_temporarios": {
+      "type": "integer"
+    },
+    "status": {
+      "type": "boolean"
+    },
+    "nascimento": {
+      "type": "datetime"
+    },
+    "vinculo": {
+      "type": "integer"
+    }
+  }
+}
